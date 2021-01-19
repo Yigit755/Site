@@ -1,0 +1,37 @@
+{
+  "name": "dc-botlist",
+  "version": "1.0.0",
+  "description": "DarkCode için Swôth#9990 tarafından yapılan botlist sitesidir.",
+  "main": "darkcode-site.js",
+  "scripts": {
+    "start": "node darkcode-bot.js"
+  },
+  "keywords": [
+    "DC"
+  ],
+  "author": "Swôth#9990",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "dark.db": "^0.0.1",
+    "darkcode": "^0.0.1",
+    "deasync": "^0.1.21",
+    "discord.js": "^12.5.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.4",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.3",
+    "quickmongo": "^3.0.0",
+    "request": "^2.88.2",
+    "socket.io": "^3.0.5",
+    "socket.io-client": "^3.0.5"
+  }
+}
